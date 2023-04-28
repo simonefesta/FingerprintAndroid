@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_standard_text_size">20sp</dimen>
+    <dimen name="tv_low_text_size">16sp</dimen>
+    <dimen name="tv_no_photo_margin_top">20dp</dimen>
+    <dimen name="floating_btn_margin">8dp</dimen>
+    <dimen name="cl_photo_row_padding">5dp</dimen>
+    <dimen name="tv_title_photo_margin_left">10dp</dimen>
+    <dimen name="iv_title_margin_top">10dp</dimen>
+
+    <dimen name="btn_open_menu_lateral_size">70dp</dimen>
+
+    <dimen name="size_button_default">45dp</dimen>
+    <dimen name="size_image_default">188dp</dimen>
+    <dimen name="size_inlist_image_default">90dp</dimen>
+
+    <dimen name="size_default">32dp</dimen>
+    <dimen name="icon_size_default">36dp</dimen>
+
+    <dimen name="size_lock_decoration">20dp</dimen>
+
+    <dimen name="margin_standard">8dp</dimen>
+    <dimen name="margin_little">2dp</dimen>
+
+    <dimen name="radius_standard">3dp</dimen>
+    <dimen name="radius_logo">14dp</dimen>
+    <dimen name="logo_margin_left_standard">16dp</dimen>
+    <dimen name="logo_margin_right_standard">16dp</dimen>
+
+    <dimen name="margin_left_standard">8dp</dimen>
+
+    <dimen name="text_size_standard">18sp</dimen>
+    <dimen name="subtitle_size_standard">14sp</dimen>
+    <dimen name="text_size_max">35sp</dimen>
+    <dimen name="text_padding_left">5dp</dimen>
+    <dimen name="text_padding_right">5dp</dimen>
+
+
+    <dimen name="divider_margin_bottom">8dp</dimen>
+
+    <dimen name="item_weight">8dp</dimen>
+
+    <fraction name="guideline_right">0.65</fraction>
+    <fraction name="guideline_left">0.51</fraction>
+    <fraction name="guideline_horizontal1">0.4</fraction>
+    <fraction name="guideline_horizontal2">0.5</fraction>
+    <fraction name="guideline_horizontal3">0.6</fraction>
+    <fraction name="guideline_horizontal4">0.7</fraction>
+    <fraction name="guideline_horizontal5">0.75</fraction>
+
+    <!-- Menu Activity -->
+    <dimen name="cv_title_height">60dp</dimen>
+    <dimen name="cv_title_elevation">10dp</dimen>
+    <dimen name="cv_element_height">75dp</dimen>
+    <dimen name="cv_margin_top_from_title">2dp</dimen>
+    <dimen name="iv_card_logo_size">50dp</dimen>
+    <dimen name="iv_card_logo_padding">5dp</dimen>
+    <dimen name="tv_left_margin_from_logo">10dp</dimen>
+
+
+</resources>

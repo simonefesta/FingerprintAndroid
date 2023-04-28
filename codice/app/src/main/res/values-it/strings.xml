@@ -1,0 +1,41 @@
+<resources>
+    <!-- Static info -->
+    <string name="app_name">BiometricPrompt</string>
+    <string name="activity_protected_name">Galleria</string>
+    <string name="activity_main_name">Autenticazione</string>
+    <!-- Main Activity -->
+    <string name="btn_no_auth">Apri</string>
+    <string name="btn_auth">Autenticazione</string>
+    <string name="iv_title_content_descriptor">Biometric Gallery</string>
+    <string name="toast_auth_err">Autenticazione fallita</string>
+    <!-- Main Activity - Prompt auth -->
+    <string name="prompt_auth_title">Verifica la tua identità</string>
+    <string name="prompt_auth_subtitle">Log in con impronta</string>
+    <string name="prompt_auth_btn_back">Indietro</string>
+    <!-- Main Activity - Dialogs -->
+    <string name="dialog_critical_title">Problema critico</string>
+    <string name="dialog_critical_message">Sembra esserci un problema con il tuo sensore. Non possiamo aiutarti! :("</string>
+    <string name="dialog_critical_btn_close">Chiudi app</string>
+    <string name="dialog_enroll_title">Niente panico!</string>
+    <string name="dialog_enroll_message">Registra la tua impronta digitale</string>
+    <string name="dialog_enroll_btn_ok">Registra impronta</string>
+    <string name="dialog_enroll_btn_back">Indietro</string>
+    <!-- Protected Activity -->
+    <string name="toast_select_photo_err_1">Per favore, seleziona una foto</string>
+    <string name="toast_select_photo_err_2">Impossibile salvare la foto</string>
+    <string name="toast_take_photo_err">Per favore, scatta una foto</string>
+    <string name="toast_error_opening_camera">Impossibile aprire la camera</string>
+    <string name="toast_permission_denied">Permessi negati</string>
+    <string name="tv_no_photo_in_gallery">Nessuna foto presente, scattane una</string>
+    <string name="tv_hint_delete_photo">Tenere premuto per cancellare</string>
+    <!-- Info Activity -->
+    <string name="iv_photo_zoom_content_descriptor">Immagine</string>
+    <string name="tv_info_group">" Composto da: "</string>
+    <string name="tv_info_version">"Versione:   "</string>
+    <string name="tv_info_description">Esonero 2019/2020</string>
+    <!-- Menu Activity -->
+    <string name="tv_title_setting">Impostazioni</string>
+    <string name="tv_card_title_debug">Debug</string>
+    <string name="tv_card_subtitle_debug">Solo per sviluppatori</string>
+    <string name="tv_card_title_info">Su di noi</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.bff.biometricprompt">
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+
+    <uses-feature
+        android:name="android.hardware.fingerprint"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+
+    <application
+        android:icon="@mipmap/app_icon_fingerprint"
+        android:roundIcon="@mipmap/app_icon_fingerprint_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".menuActivity.MenuActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="fullSensor"/>
+        <activity
+            android:name=".protectedActivity.ProtectedActivityPhotoZoom"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="fullSensor"/>
+        <activity
+            android:name=".protectedActivity.ProtectedActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/activity_protected_name"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".infoActivity.InfoActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mainActivity.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/activity_main_name"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".introActivity.IntroActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="fullSensor">
+
+            <!--Intro activity, the first activity called-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

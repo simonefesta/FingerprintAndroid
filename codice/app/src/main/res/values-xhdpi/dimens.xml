@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="iv_photo_width_and_height">125dp</dimen>
+
+    <!--<dimen name="size_image_default">270dp</dimen>-->
+</resources>

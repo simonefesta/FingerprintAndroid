@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".protectedActivity.ProtectedActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvGallery"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/background_gradient"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvNoPhotoLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tv_no_photo_margin_top"
+        android:text="@string/tv_no_photo_in_gallery"
+        android:textColor="@color/tv_standard_text_color"
+        android:textSize="@dimen/tv_standard_text_size"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rvGallery" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabGetPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/floating_btn_margin"
+        android:layout_marginBottom="@dimen/floating_btn_margin"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="@color/floating_btn_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/floating_btn_plus" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabTakePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/floating_btn_margin"
+        android:layout_marginBottom="@dimen/floating_btn_margin"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="@color/floating_btn_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/floating_btn_camera" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

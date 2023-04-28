@@ -1,0 +1,43 @@
+<resources>
+    <!-- Static info -->
+    <string name="app_name">BiometricPrompt</string>
+    <string name="activity_protected_name">Gallery</string>
+    <string name="activity_main_name">Authentication</string>
+    <!-- Main Activity -->
+    <string name="btn_no_auth">Open</string>
+    <string name="btn_auth">Authentication</string>
+    <string name="iv_title_content_descriptor">Biometric Gallery</string>
+    <string name="toast_auth_err">Authentication failed</string>
+    <!-- Main Activity - Prompt auth -->
+    <string name="prompt_auth_title">Check your identity</string>
+    <string name="prompt_auth_subtitle">Log in using your fingerprint</string>
+    <string name="prompt_auth_btn_back">Go back</string>
+    <!-- Main Activity - Dialogs -->
+    <string name="dialog_critical_title">Critical problem</string>
+    <string name="dialog_critical_message">Your device has a critical problem with biometric hardware or with him drivers. We cannot help you :("</string>
+    <string name="dialog_critical_btn_close">Close app</string>
+    <string name="dialog_enroll_title">No Panic!</string>
+    <string name="dialog_enroll_message">Register your fingerprint</string>
+    <string name="dialog_enroll_btn_ok">Register</string>
+    <string name="dialog_enroll_btn_back">Back</string>
+    <!-- Protected Activity -->
+    <string name="toast_select_photo_err_1">Please, select a photo</string>
+    <string name="toast_select_photo_err_2">Unable to save the photo</string>
+    <string name="toast_take_photo_err">Please, take a picture</string>
+    <string name="toast_error_opening_camera">Unable to open camera</string>
+    <string name="toast_permission_denied">Permission denied</string>
+    <string name="tv_no_photo_in_gallery">No photo present, take a picture</string>
+    <string name="tv_hint_delete_photo">Hold to delete a photo</string>
+    <!-- Info Activity -->
+    <string name="iv_photo_zoom_content_descriptor">Image</string>
+    <string name="tv_info_group">" Composed by:"</string>
+    <string name="tv_info_version">"Version:    "</string>
+    <string name="tv_info_description">Exam 2019/2020</string>
+    <string name="tv_developers" translatable="false">Adriano Brugnoni, Alessandro Fato, Simone Festa</string>
+    <string name="tv_version" translatable="false">1.0</string>
+    <!-- Menu Activity -->
+    <string name="tv_title_setting">Setting</string>
+    <string name="tv_card_title_debug">Debug</string>
+    <string name="tv_card_subtitle_debug">Only for developers</string>
+    <string name="tv_card_title_info">About us</string>
+</resources>

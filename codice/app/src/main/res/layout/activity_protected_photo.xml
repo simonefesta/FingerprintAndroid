@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clRow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F8F6F6"
+    android:elevation="2dp">
+
+
+    <ImageView
+        android:id="@+id/ivLock"
+        android:layout_width="@dimen/size_lock_decoration"
+        android:layout_height="@dimen/size_lock_decoration"
+        android:layout_marginBottom="3dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/btn_lock" />
+
+    <View
+        android:id="@+id/ivDividerRow"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/list_divider_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_standard"
+        android:fontFamily="sans-serif"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_little"
+        android:layout_marginBottom="1dp"
+        app:cardCornerRadius="@dimen/radius_standard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivPhoto"
+            android:layout_width="@dimen/size_inlist_image_default"
+            android:layout_height="@dimen/size_inlist_image_default"
+            android:scaleType="fitXY" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
