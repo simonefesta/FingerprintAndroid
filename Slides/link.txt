@@ -1,0 +1,16 @@
+1) Esempio di codice del biometricprompt:
+
+https://medium.com/mindorks/fingerprint-authentication-using-biometricprompt-compat-1466365b4795
+
+
+2) Altri esempi documentati da google. Rispetto al link precedente ha la funzione
+canAuthenticate() che sembra molto utile, inoltre parla di roba per cifrare qualcosa:
+
+
+https://developer.android.com/training/sign-in/biometric-auth
+
+
+3) Struttura della classe BiometricManager. Nel menu a sinistra, sotto la voce "Classes" 
+vi sono elencate tutte le classi utili con i loro metodi e costanti.
+
+https://developer.android.com/reference/android/hardware/biometrics/BiometricManager
